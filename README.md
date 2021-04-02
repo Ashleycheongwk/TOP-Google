@@ -11,3 +11,7 @@ v1.01
   - Cleared typos
   - Centered logo, added googleglass
   - Created searchbar
+
+  v1.03
+  - Need to seperate the buttons using whitespace
+  - Color of the buttons needs to be adjusted

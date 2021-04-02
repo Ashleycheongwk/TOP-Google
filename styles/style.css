@@ -134,3 +134,9 @@ a:hover {
     padding-left: 7px;
     font-size: 17px;
 }
+
+.buttons {
+    display: flex;
+    padding-top: 13px;
+    align-items: center;
+}
