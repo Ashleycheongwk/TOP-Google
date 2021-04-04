@@ -13,5 +13,9 @@ v1.01
   - Created searchbar
 
   v1.03
-  - Need to seperate the buttons using whitespace
-  - Color of the buttons needs to be adjusted
+  - Completed footer
+  - Streamlined code segments for google_container
+  - Added search buttons
+  - Added more class id to html
+  - Updated comments for more clarity
+  - Updated class id for more clarity

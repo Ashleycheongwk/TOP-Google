@@ -86,21 +86,25 @@ a:hover {
 }
 
 /*Google Logo*/
-.googlecontainer {
+.google_container {
     text-align: center;
-    justify-content: center;
-    display: grid;
     flex: 1;
 }
 
-.googlelogo {
+.google_logo {
     padding:0%;
     margin:0%;
     padding-bottom: 6px;
 }
 
 /*Searchbar*/
-.googleglass {
+.search_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.google_glass {
     height: 27px;
     width: 27px;
     margin-top: auto;
@@ -112,6 +116,7 @@ a:hover {
     display: flex;
     position: relative;
     align-items: center;
+    box-sizing: border-box;
     border-radius: 24px;
     height: 44px;
     width: 100%;
@@ -123,13 +128,13 @@ a:hover {
 .input {
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
     width: 100%;
 }
 
-#searchbar {
+.search_bar {
     border: none;
     outline: none;
+    width: 100%;
     min-width: 500px;
     padding-left: 7px;
     font-size: 17px;
@@ -140,3 +145,68 @@ a:hover {
     padding-top: 13px;
     align-items: center;
 }
+
+.button_container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding-top: 18px;
+}
+
+/*Location*/
+.location {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0,.54);
+    background-color: #f2f2f2;
+}
+
+.country {
+    margin: 0px;
+}
+
+/*Footer*/
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+    }
+
+    .footer_left {
+        padding: 15px 20px;
+    }
+
+    .about {
+        padding: 0 15px;
+    }
+
+    .advertising {
+        padding: 0 11px;
+    }
+
+    .business {
+        padding: 0 15px;
+    }
+
+    .tutorial {
+        padding:0 11px;
+    }
+
+    .footer_right {
+        padding: 15px 20px;
+    }
+
+    .privacy {
+        padding: 0 15px;
+    }
+
+    .terms {
+        padding: 0 11px;
+    }
+
+    .settings {
+        padding: 0 15px;
+    }
