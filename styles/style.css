@@ -45,7 +45,6 @@ a:link {
 a:visited {
     color: #5f6368;
     text-decoration: none;
-    font-size: 14px;
 }
 
 a:hover {
@@ -56,7 +55,7 @@ a:hover {
 .nav {
     text-align: right;
     padding: 10px;
-    padding-right: 30px;
+    font-size: 13px;
 }
 
 .nav_list{
@@ -86,6 +85,12 @@ a:hover {
 }
 
 /*Google Logo*/
+.flex_space {
+    flex: 1;
+    max-height: 92px;
+    height: 100%; 
+}
+
 .google_container {
     text-align: center;
     flex: 1;
@@ -94,7 +99,6 @@ a:hover {
 .google_logo {
     padding:0%;
     margin:0%;
-    padding-bottom: 6px;
 }
 
 /*Searchbar*/
@@ -102,6 +106,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 20px;
 } 
 
 .google_glass {
@@ -125,6 +130,11 @@ a:hover {
     max-width: 584px;
 }
 
+.search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
 .input {
     display: flex;
     flex: 1;
@@ -144,6 +154,7 @@ a:hover {
     display: flex;
     padding-top: 13px;
     align-items: center;
+
 }
 
 .button_container {
@@ -152,6 +163,57 @@ a:hover {
     justify-content: center;
     width: 100%;
     padding-top: 18px;
+}
+
+.button_container input:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.search_submit {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color:#5F6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.search_random {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color:#5F6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.google_lang {
+    font-size: small;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.google_lang a:link {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.google_lang a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+}
+.google_lang a:hover {
+    text-decoration: underline;
 }
 
 /*Location*/

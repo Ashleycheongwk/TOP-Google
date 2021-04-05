@@ -19,3 +19,9 @@ v1.01
   - Added more class id to html
   - Updated comments for more clarity
   - Updated class id for more clarity
+
+  v1.1
+   - Added shadows to searchbar and search buttons
+   - Changed google_lang color
+   - Repositioned elements to better fit google homepage
+   - Removed code redundacies
