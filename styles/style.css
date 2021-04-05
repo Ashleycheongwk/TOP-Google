@@ -87,7 +87,8 @@ a:hover {
 /*Google Logo*/
 .flex_space {
     flex: 1;
-    max-height: 92px;
+    min-height: 92px;
+    max-height: 290px;
     height: 100%; 
 }
 
